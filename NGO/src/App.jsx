@@ -5,6 +5,11 @@ import Aboutus from "./components/Aboutus";
 import OurFocus from "./components/OurFocus";
 import Impact from "./components/Impact";
 import Involved from "./components/Involved";
+import Footer from "./components/Footer";
+import Award from "./components/Award";
+import Newsletter from "./components/Newsletter";
+
+
 
 function App() {
   return (
@@ -17,7 +22,11 @@ function App() {
         <OurFocus />
         <Impact />
         <Involved />
+        <Award />
+        <Newsletter />
+        <Footer />
       </main>
+      
     </div>
   );
 }

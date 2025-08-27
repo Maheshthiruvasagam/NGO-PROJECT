@@ -3,13 +3,13 @@ import React from 'react'
 const OurFocus = () => {
   return (
     <>
-    <div>
-    <div className='flex flex-col items-center mt-10'>
-        <h1 className='text-[30px] font-bold mt-10'>Our Focus</h1>
-        <p className='text-[15px] pt-2 ml-[5px]'>We channel our efforts into key areas to maximize our impact.</p>
-    </div>
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:ml-[65px] gap-4 mt-15'>
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="px-2 sm:px-4 md:px-8 lg:px-16">
+      <div className='flex flex-col items-center mt-10'>
+        <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mt-10 text-center'>Our Focus</h1>
+        <p className='text-base sm:text-lg pt-2 text-center'>We channel our efforts into key areas to maximize our impact.</p>
+      </div>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
+  <div className="card bg-base-100 w-full max-w-xs mx-auto shadow-sm">
   <figure>
     <img
       src="https://placehold.co/400x300/a7f3d0/14532d?text=Education"
@@ -21,7 +21,7 @@ const OurFocus = () => {
     </div>
     </div>
 
-    <div className="card bg-base-100 w-96 shadow-sm">
+  <div className="card bg-base-100 w-full max-w-xs mx-auto shadow-sm">
   <figure>
     <img
       src="https://placehold.co/400x300/a7f3d0/14532d?text=HealthCare"
@@ -33,7 +33,7 @@ const OurFocus = () => {
     </div>
     </div>
 
-    <div className="card bg-base-100 w-96 shadow-sm">
+  <div className="card bg-base-100 w-full max-w-xs mx-auto shadow-sm">
   <figure>
     <img
       src="https://placehold.co/400x300/a7f3d0/14532d?text=Environment"
@@ -48,9 +48,9 @@ const OurFocus = () => {
 
   
 </div> 
-    <div className='flex flex-col items-center mt-10'>
-    <button className="btn btn-primary">Primary</button>
-    </div>
+      <div className='flex flex-col items-center mt-10'>
+        <button className="btn btn-primary">Primary</button>
+      </div>
 </div>
 </>
   )
